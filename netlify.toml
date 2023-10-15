@@ -1,4 +1,4 @@
 # netlify.toml
 [build]
-  command = "mkdocs build"
+  command = "pip3 install -r requirements.txt && mkdocs build"
   publish = "site"
